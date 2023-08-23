@@ -56,6 +56,27 @@
         height: 10px;
         background-color: white;
     }
+    .ungu{
+        width: 90px;
+        height: 10px;
+        background-color: purple;
+        -webkit-text-fill-color: white;
+    }
+    .BiruTua{
+        width: 90px;
+        height: 10px;
+        background-color: blue;
+    }
+    .abu{
+        width: 90px;
+        height: 10px;
+        background-color: grey;
+    }
+    .orange{
+        width: 90px;
+        height: 10px;
+        background-color: orange;
+    }
 </style>
 
 <body>
@@ -63,23 +84,26 @@
     <table class="table">
         <tr>
             <td class="kuning">Kuning</td>
-            <td>.</td>
-            <td class="hitam">Hitam</td>
+            <td class="hitam" colspan="3">Hitam</td>
         </tr>
         <tr>
             <td class="hijau">Hijau</td>
             <td class="coklat">Coklat</td>
-            <td class="pink">Pink</td>
+            <td class="pink" rowspan="2">Pink</td>
             <td class="biru">Biru</td>
         </tr>
         <tr>
             <td class="merah">Merah</td>
             <td class="putih">Putih</td>
-            <td  bgcolor="rgb(233, 47, 189)"></td>
-            <td class="ungu">Ungu</td>
+            <td class="ungu" rowspan="4">Ungu</td>
         </tr>
         <tr>
-            <td class="biruTua">Biru Tua</td>
+            <td class="BiruTua" rowspan="3">Biru Tua</td>
+            <td class="abu" colspan="2" rowspan="2">Abu</td>
+        </tr>
+        <tr></tr>
+        <tr>
+            <td class="orange" colspan="2">Orange</td>
         </tr>
     </table>
 </body>
